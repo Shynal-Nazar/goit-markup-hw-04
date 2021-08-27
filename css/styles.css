@@ -126,6 +126,7 @@ img {
 .heder-contacts-list {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .heder-contacts-item + .heder-contacts-item {
@@ -133,7 +134,7 @@ img {
 }
 
 .heder-contacts-link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -216,8 +217,10 @@ img {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  padding: 25px 100px;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .advantage-list-rectangle-icon {
@@ -298,6 +301,7 @@ img {
 }
 
 .team-list-item {
+  background-color: #ffffff;
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -404,8 +408,8 @@ img {
 
 .clients-list-item:hover,
 .clients-list-item:focus,
-.clients-list-item:hover .clients-list-link-icon,
-.clients-list-item:focus .clients-list-link-icon {
+.clients-list-link:hover .clients-list-link-icon,
+.clients-list-link:focus .clients-list-link-icon {
   fill: var(--accent-color);
 }
 
@@ -523,12 +527,6 @@ img {
   padding-bottom: 94px;
 }
 
-.hero-title-portfolio {
-}
-
-.portfolio-title {
-}
-
 .portfolio-list-btn {
   display: flex;
   justify-content: center;
@@ -547,6 +545,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   cursor: pointer;
+  border: none;
 }
 
 .portfolio-list-buton:hover,
